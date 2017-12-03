@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "255695358110",
+    "firebase_url": "https://budgetprevisionnel-b65eb.firebaseio.com",
+    "project_id": "budgetprevisionnel-b65eb",
+    "storage_bucket": "budgetprevisionnel-b65eb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:255695358110:android:9a3936568ceee979",
+        "android_client_info": {
+          "package_name": "com.africainnovation.viche.budgetprevisionnel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "255695358110-jh1drnabqj7gmt91nefmbmnrtldncm3j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.africainnovation.viche.budgetprevisionnel",
+            "certificate_hash": "27c96cf8390299e68def8b5f4f00b9be6eb035ff"
+          }
+        },
+        {
+          "client_id": "255695358110-i48nl7s7t0f5ep94jfibsup01cfh7sj5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-JmAPYcLPIYAWEfZG5aUfxbWiigNs_fE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "255695358110-i48nl7s7t0f5ep94jfibsup01cfh7sj5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

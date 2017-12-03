@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <android.support.v4.widget.DrawerLayout
+        android:id="@+id/drawerLayout"
+        android:background="@color/colorBackground"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context="com.africainnovation.viche.campus.activities.HomeActivity">
+
+            <android.support.design.widget.AppBarLayout
+                android:layout_width="0dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_height="360dp"
+                android:id="@+id/appBarLayout">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/iv_head_home_page"
+                        android:scaleType="centerCrop"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="-16dp" />
+
+                    <android.support.v7.widget.Toolbar
+                        android:id="@+id/toolbar"
+                        android:layout_width="match_parent"
+                        android:layout_height="56dp"
+                        android:theme="@style/ThemeOverlay.AppCompat.Dark"
+                        app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+                        <TextView
+                            android:id="@+id/toolbar_title"
+                            android:text="@string/app_title"
+                            android:textColor="@android:color/white"
+                            android:textAlignment="center"
+                            android:gravity="center_horizontal|center_vertical"
+                            android:textSize="@dimen/title_action_bar_size"
+                            android:textAppearance="@style/Widget.AppCompat.Light.ActionBar.Solid"
+                            android:layout_gravity="center_horizontal|center_vertical"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </android.support.v7.widget.Toolbar>
+                </RelativeLayout>
+
+            </android.support.design.widget.AppBarLayout>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:background="@android:color/black"
+                app:layout_constraintTop_toBottomOf="@+id/appBarLayout"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent" >
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:background="@color/colorBackground"
+                    android:layout_height="match_parent">
+                    <LinearLayout
+                        android:layout_weight="1"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:clickable="true"
+                        android:layout_height="0dp"
+                        android:layout_marginBottom="1dp">
+                        <LinearLayout
+                            android:layout_weight="1"
+                            android:orientation="vertical"
+                            android:layout_width="0dp"
+                            android:clickable="true"
+                            android:gravity="center"
+                            android:layout_height="match_parent">
+                            <Button
+                                android:id="@+id/btn_saisir"
+                                android:textColor="@android:color/white"
+                                android:textStyle="bold"
+                                android:clickable="true"
+                                android:background="@android:color/holo_blue_dark"
+                                style="@style/Widget.AppCompat.Button"
+                                android:text="@string/saisir"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent" />
+                        </LinearLayout>
+                        <TextView
+                            android:layout_width="1dp"
+                            android:layout_marginBottom="8dp"
+                            android:layout_marginTop="8dp"
+                            android:background="@android:color/white"
+                            android:layout_height="match_parent" />
+                        <LinearLayout
+                            android:layout_weight="1"
+                            android:orientation="vertical"
+                            android:layout_width="0dp"
+                            android:clickable="true"
+                            android:gravity="center"
+                            android:layout_height="match_parent">
+                            <Button
+                                android:textColor="@android:color/white"
+                                android:textStyle="bold"
+                                android:clickable="true"
+                                android:background="@android:color/holo_blue_dark"
+                                android:text="@string/analyser"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent" />
+                        </LinearLayout>
+                        <TextView
+                            android:layout_width="1dp"
+                            android:layout_marginBottom="8dp"
+                            android:layout_marginTop="8dp"
+                            android:background="@android:color/white"
+                            android:layout_height="match_parent" />
+                        <LinearLayout
+                            android:layout_weight="1"
+                            android:orientation="vertical"
+                            android:layout_width="0dp"
+                            android:gravity="center"
+                            android:layout_height="match_parent">
+                            <Button
+                                android:text="@string/telecharger"
+                                android:textColor="@android:color/white"
+                                android:textStyle="bold"
+                                android:background="@android:color/holo_blue_dark"
+                                android:clickable="true"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:background="@color/divider"
+                        android:layout_height="1dp" />
+
+                    <LinearLayout
+                        android:layout_weight="1"
+                        android:layout_marginBottom="1dp"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp">
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_weight="1"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp">
+
+                    </LinearLayout>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+        </android.support.constraint.ConstraintLayout>
+
+        <android.support.design.widget.NavigationView
+            android:id="@+id/navigationView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:fitsSystemWindows="true"
+            app:headerLayout="@layout/nav_header"
+            app:menu="@menu/menu_navigation" />
+
+    </android.support.v4.widget.DrawerLayout>
+</layout>

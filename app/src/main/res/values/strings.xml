@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">BudgetPrevisionnel</string>
+    <string name="app_title">Buget Previsionnel</string>
+    <string name="deconnexion">Deconnexion</string>
+    <string name="saisir">SAISIR</string>
+    <string name="analyser">ANALYSER</string>
+    <string name="telecharger">TELECHARGER</string>
+    <string name="title_activity_maps">Map</string>
+</resources>
